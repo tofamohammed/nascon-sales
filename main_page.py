@@ -52,7 +52,7 @@ selected_year = st.sidebar.select_slider('Select a Year', sorted(data_df['Year']
 #selected_year = st.sidebar.selectbox('Select a Year', sorted(data_df['Year'].unique()))
 selected_month = st.sidebar.selectbox('Select a Month', sorted(data_df['Month'].unique()))
 
-st.sidebar.success("Select any page above for further analysis.")
+st.sidebar.success("Developed by Mohammed Tofa using python and Streamlit. Select any page above for further analysis.")
 
 with col[1]:
     # Display selected filters
